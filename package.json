@@ -1,0 +1,14 @@
+{
+  "name": "power-radix-examples",
+  "version": "1.0.0",
+  "description": "Code examples using cflynn07/power-radix radix&encoding conversion library",
+  "main": "index.js",
+  "scripts": {
+    "test": "npm test"
+  },
+  "author": "Casey Flynn <cflynn.us@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "power-radix": "^2.2.0"
+  }
+}

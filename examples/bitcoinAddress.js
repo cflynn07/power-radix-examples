@@ -23,6 +23,7 @@ var table = new Table();
 /**
  * Create private key
  */
+// NOTE privateKey must 0x1 < privateKey < 0xFFFF FFFF FFFF FFFF FFFF FFFF FFFF FFFE BAAE DCE6 AF48 A03B BFD2 5E8C D036 4140
 var privateKey = crypto.createHash('sha256')
   .update(Math.random()+'')
   .digest('hex');
